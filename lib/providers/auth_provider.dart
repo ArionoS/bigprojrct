@@ -51,4 +51,8 @@ class AuthProvider with ChangeNotifier {
       return false;
     }
   }
+
+  void notifyListeners() {}
 }
+
+class ChangeNotifier {}
